@@ -1,0 +1,35 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.header-right{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    font-weight: bold;
+}
