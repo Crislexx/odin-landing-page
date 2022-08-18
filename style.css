@@ -108,8 +108,9 @@ p {
 .all-square-and-text {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 100px;
+    gap: 36px;
 }
 
 .square-and-text {
@@ -183,10 +184,10 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    padding: 50px 100px;
-    /*position: fixed;
+    padding: 25px;
+    position: fixed;
     width: 100%;
-    bottom: 0; */
+    bottom: 0; 
 }
 
 .footer p {
