@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -48,7 +50,7 @@ p {
 
 .top {
     margin-top: 0;
-    background-color: #1f2937;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding: 100px;
@@ -174,4 +176,20 @@ p {
 #one {
     font-size: 24px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 100px;
+    /*position: fixed;
+    width: 100%;
+    bottom: 0; */
+}
+
+.footer p {
+    color: white;
+    font-size: 24px;
 }
