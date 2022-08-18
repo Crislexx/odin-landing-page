@@ -16,9 +16,13 @@ ul {
     padding: 0;
 }
 
-h1, h4{
+h1, h3, h4{
     margin:0;
     padding: 0;
+}
+
+p {
+    margin: 0;
 }
 
 .header {
@@ -83,27 +87,29 @@ h1, h4{
     font-weight: normal;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100px;
+    padding: 50px 100px;
     align-items: stretch;
 }
 
-.information{
+.information {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     align-self: center;
+    padding-bottom: 50px;
 }
 
-.all-square-and-text{
+.all-square-and-text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 100px;
 }
 
-.square-and-text{
+.square-and-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +118,7 @@ h1, h4{
 
 }
 
-.square{
+.square {
     min-width: 150px;
     max-width: 150px;
     height: 150px;
@@ -120,6 +126,23 @@ h1, h4{
     border-radius: 16px;
 }
 
-.square-subtext{
+.square-subtext {
     text-align: start;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+}
+
+#one {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    font-weight: bold;
+    text-align: end;
 }
